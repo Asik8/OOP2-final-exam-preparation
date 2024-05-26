@@ -1,22 +1,44 @@
-Sure, let's organize the questions by topic:
-
 ### Inheritance:
 1. Define a class `Animal` with a method `sound()`. Create a subclass `Dog` that inherits from `Animal` and overrides the `sound()` method to return "Woof".
+
 2. Create a class hierarchy for different types of vehicles. Include a base class `Vehicle` and subclasses such as `Car`, `Motorcycle`, and `Truck`. Ensure that each subclass has appropriate attributes and methods.
+
 3. Create a class `Employee` with attributes `name` and `salary`. Create subclasses `Manager` and `Developer`. Managers have an additional attribute `department`, while Developers have `programming_language`. Implement appropriate methods for each subclass.
+
 4. Design a class hierarchy for different types of electronic devices. Include a base class `Device` and subclasses such as `Phone`, `Laptop`, and `Tablet`. Ensure that each subclass has specific attributes and methods.
+
 5. Create a class `Animal` with a method `sound()`. Create subclasses `Cat`, `Cow`, and `Horse`. Each subclass should override the `sound()` method to return the respective animal sound.
+
 6. Define a class Shape with a method area(). Create subclasses Rectangle and Triangle. Override the area() method in each subclass to calculate the area of a rectangle and triangle respectively.
+
 7. Design a class hierarchy for different types of employees in a company. Include a base class Employee and subclasses such as Manager, Engineer, and Salesperson. Each subclass should have attributes specific to their role and appropriate methods.
+
 8. Create a class Vehicle with attributes make and model. Create subclasses Car and Bike that inherit from Vehicle and have additional attributes like num_doors for cars and num_gears for bikes.
+
 9. Implement a class hierarchy for different types of shapes. Include a base class Shape and subclasses such as Rectangle, Circle, and Triangle. Each subclass should have methods to calculate its area and perimeter.
+
 10. Define a class Person with attributes name and age. Create subclasses Teacher and Student. Teachers have an additional attribute subject, while students have grade. Implement appropriate methods for each subclass.
 
 ### Encapsulation:
 1. Create a class `Student` with private attributes `__name` and `__age`. Provide public methods to set and get these attributes.
+
 2. Implement a class `BankAccount` with private attributes `__balance`. Provide public methods to deposit, withdraw, and check balance, ensuring that withdrawals cannot exceed the balance.
+
 3. Create a class `Person` with private attributes `__name`, `__age`, and `__gender`. Provide public methods to set and get these attributes.
+
 4. Implement a class `House` with private attributes `__address`, `__num_rooms`, and `__price`. Provide public methods to set and get these attributes, ensuring that the price cannot be negative.
+
+5. Create a class Bank with private attributes __name and __balance. Provide public methods to set the bank's name and get its balance.
+
+6. Implement a class HealthRecord with private attributes __name, __age, and __weight. Provide public methods to set and get these attributes, ensuring that age and weight cannot be negative.
+
+7. Create a class Household with private attributes __address, __num_rooms, and __occupants. Provide public methods to set and get these attributes, ensuring that the number of rooms is always a positive integer.
+
+8. Implement a class Company with private attributes __name, __revenue, and __employees. Provide public methods to set and get these attributes, ensuring that revenue is non-negative and employees are not empty.
+
+9. Create a class Book with private attributes __title, __author, and __pages. Provide public methods to set and get these attributes, ensuring that the number of pages is always a positive integer.
+j
+10. Implement a class Warehouse with private attributes __location, __capacity, and __items. Provide public methods to set and get these attributes, ensuring that capacity is a positive integer and items are not empty.
 
 ### Polymorphism:
 1. Define a class `Shape` with a method `area()`. Create subclasses `Rectangle` and `Circle` that override the `area()` method to calculate the area of a rectangle and circle respectively.
