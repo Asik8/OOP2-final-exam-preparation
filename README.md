@@ -63,12 +63,38 @@ j
 
 ### Numpy and Basic Python:
 1. Create a numpy array with values from 1 to 10.
+
 2. Perform element-wise addition, subtraction, multiplication, and division on two numpy arrays of the same shape.
+
 3. Write a Python function to find the factorial of a number using recursion.
+
 4. Write a Python function to check if a given number is prime.
+
 5. Create a numpy array with random values of shape (3, 3).
+
 6. Perform matrix multiplication on two numpy arrays of appropriate shapes.
+
 7. Write a Python function to check if a given string is a palindrome.
+
 8. Write a Python function to find the Fibonacci sequence up to a specified number of terms.
 
-These questions should give you a comprehensive set of practice problems to prepare for your exam. Let me know if you need further assistance!
+9. Write a Python function to find the greatest common divisor (GCD) of two numbers using recursion.
+
+10. Write a Python function to generate Pascal's triangle up to a specified number of rows.
+
+11. Create a numpy array with random integers between 1 and 100 of shape (4, 4).
+
+12. Write a Python function to check if a given year is a leap year.
+
+13. Implement a class Matrix with methods to perform matrix addition, subtraction, and scalar multiplication.
+
+14. Write a Python function to find the longest common prefix of a list of strings.
+
+15. Create a numpy array with values from 0 to 9 and reshape it to a 3x3 matrix.
+
+16. Write a Python function to reverse a string without using slicing or built-in functions like reverse().
+
+17. Implement a class Vector with methods to calculate dot product and cross product of two vectors.
+18. Write a Python function to count the number of vowels in a string.
+
+19. Create a numpy array with random floats between 0 and 1 of shape (2, 3).
