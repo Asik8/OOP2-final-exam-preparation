@@ -42,9 +42,24 @@ j
 
 ### Polymorphism:
 1. Define a class `Shape` with a method `area()`. Create subclasses `Rectangle` and `Circle` that override the `area()` method to calculate the area of a rectangle and circle respectively.
+
 2. Create a function `total_area(shapes)` that takes a list of shapes (objects of classes derived from `Shape`) and returns the total area of all shapes.
+
 3. Define a class `Animal` with a method `sound()`. Create subclasses `Cat`, `Cow`, and `Horse`. Each subclass should override the `sound()` method to return the respective animal sound.
+
 4. Create a function `calculate_area(shape)` that takes an object of a class derived from `Shape` (e.g., `Rectangle` or `Circle`) and returns the area of the shape.
+
+5. Define a class Animal with a method sound(). Create subclasses Bird, Dog, and Cat. Each subclass should override the sound() method to return the respective animal sound.
+
+6. Create a function calculate_volume(shape) that takes an object of a class derived from Shape (e.g., Cube or Cylinder) and returns the volume of the shape.
+
+7. Define a class Vehicle with a method drive(). Create subclasses Car and Motorcycle. Each subclass should override the drive() method to simulate driving the respective vehicle.
+
+8. Design a class hierarchy for different types of food items. Include a base class Food and subclasses such as Fruit, Vegetable, and Meat. Each subclass should have methods to describe its taste and nutritional value.
+
+9. Create a function calculate_area_and_perimeter(shape) that takes an object of a class derived from Shape and returns both the area and perimeter of the shape.
+
+10. Define a class Operation with a method perform(). Create subclasses Addition, Subtraction, Multiplication, and Division. Each subclass should override the perform() method to perform the respective arithmetic operation.
 
 ### Numpy and Basic Python:
 1. Create a numpy array with values from 1 to 10.
