@@ -12,8 +12,13 @@ class ball():
     
 class Cricket(ball):
     def __init__(self,name,shape,color,weight):
-        super.__init__(self,name,shape,color,weight)
-    
+        ball.__init__(self,name,shape,color,weight)
+        
+class Football(ball):
+    def __init__(self,name,shape,color,weight):
+        ball.__init__(self,name,shape,color,weight)
 
 cr = Cricket("Cricket Ball","Circle","Red",150)
 cr.pr()
+ft = Football("Foot Ball","Circle","Black and White",300)
+ft.pr()
