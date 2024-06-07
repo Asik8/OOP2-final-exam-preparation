@@ -26,3 +26,5 @@ a = np.array([
 # Another way
 b = a[2:5,4:7]
 print(b)
+
+
