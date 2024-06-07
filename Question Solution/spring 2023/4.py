@@ -4,7 +4,7 @@ import numpy as np
 a = np.zeros((4, 3))
 a[0] = np.arange(1, 4)
 a[2] = np.arange(5, 8)
-# print(a)
+print(a)
 
 main_diagonal = np.diagonal(a)
 above_diagonal = np.diagonal(a, offset=1)
@@ -23,9 +23,9 @@ mean_values = np.mean(b[:, 1:4], axis=0)
 max_values = np.max(b[:, 1:4], axis=0)
 variance_values = np.var(b[:, 1:4], axis=0)
 
-print("Mean values:", mean_values)
-print("Max values:", max_values)
-print("Variance values:", variance_values)
+# print("Mean values:", mean_values)
+# print("Max values:", max_values)
+# print("Variance values:", variance_values)
 
 
 # iii. Describe the difference

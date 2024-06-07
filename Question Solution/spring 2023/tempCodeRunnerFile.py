@@ -1,3 +1,4 @@
- axis=0)
-# max_values = np.max(b[:, 1:4], axis=0)
-# variance_values = np.var(b[:, 1:4], axis=0)
+
+# print("Mean values:", mean_values)
+# print("Max values:", max_values)
+# print("Variance values:", variance_values)

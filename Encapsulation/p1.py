@@ -2,8 +2,8 @@
 
 class Student:
     def __init__(self):
-        self.__name = ""
-        self.__age = 0
+        self._name = "" # Protected
+        self.__age = 0 # Private
     
     def set_name(self, name):
         self.__name = name

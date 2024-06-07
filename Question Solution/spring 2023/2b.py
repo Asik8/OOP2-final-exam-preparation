@@ -48,7 +48,7 @@ class StudentManagement():
         pass
     def courseInfo(self):
         pass
-    def result():
+    def result(): 
         pass
 
 class ExamController(StudentManagement):
